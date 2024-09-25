@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Course Syllabus</string>
+
+    <!-- Course Names -->
+    <string-array name="course_names">
+        <item>Java Full Stack</item>
+        <item>Android Development</item>
+        <item>Data Science</item>
+    </string-array>
+
+    <!-- Course Syllabus -->
+    <string-array name="java_syllabus">
+        <item>Introduction to Java</item>
+        <item>OOP Concepts</item>
+        <item>Java Collections</item>
+        <item>Spring Boot</item>
+        <item>REST APIs</item>
+    </string-array>
+
+    <string-array name="android_syllabus">
+        <item>Introduction to Android</item>
+        <item>Layouts in Android</item>
+        <item>Activities and Intents</item>
+        <item>RecyclerView</item>
+        <item>Fragments</item>
+    </string-array>
+
+    <string-array name="data_science_syllabus">
+        <item>Introduction to Data Science</item>
+        <item>Python for Data Science</item>
+        <item>Data Wrangling</item>
+        <item>Machine Learning Basics</item>
+        <item>Data Visualization</item>
+    </string-array>
+
+    <!-- Teacher Names -->
+    <string-array name="teacher_names">
+        <item>John Doe</item>
+        <item>Jane Smith</item>
+        <item>Mark Johnson</item>
+    </string-array>
+
+    <!-- Course Fees -->
+    <string-array name="course_fees">
+        <item>5000 INR</item>
+        <item>7000 INR</item>
+        <item>10000 INR</item>
+    </string-array>
+</resources>

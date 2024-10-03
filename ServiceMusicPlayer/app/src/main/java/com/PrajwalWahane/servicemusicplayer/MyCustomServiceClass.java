@@ -14,8 +14,8 @@ public class MyCustomServiceClass extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        player = MediaPlayer.create(this, Settings.System.DEFAULT_RINGTONE_URI);
-//      player = MediaPlayer.create(this, R.raw.tring);
+//        player = MediaPlayer.create(this, Settings.System.DEFAULT_RINGTONE_URI);
+        player = MediaPlayer.create(this, R.raw.tring);
         player.setLooping(true);
         player.start();
 

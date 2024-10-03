@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Solution OF String Array</string>
+
+    <string-array name="course_array">
+        <item>Android</item>
+        <item>Web Development</item>
+        <item>Data Science</item>
+    </string-array>
+
+    <string-array name="duration_array">
+        <item>2 months</item>
+        <item>4 months</item>
+        <item>1 months</item>
+    </string-array>
+
+    <!-- Syllabi for each course -->
+    <string-array name="syllabus_android_development">
+        <item>Introduction to Android</item>
+        <item>Activities and Intents</item>
+        <item>Fragments</item>
+        <item>RecyclerView and Adapters</item>
+        <item>SQLite Database</item>
+    </string-array>
+
+    <string-array name="syllabus_web_development">
+        <item>HTML and CSS Basics</item>
+        <item>JavaScript and DOM</item>
+        <item>Responsive Design</item>
+        <item>Backend Development with Node.js</item>
+        <item>Database Integration</item>
+    </string-array>
+
+    <string-array name="syllabus_data_science">
+        <item>Introduction to Data Science</item>
+        <item>Python for Data Science</item>
+        <item>Data Wrangling</item>
+        <item>Data Visualization</item>
+        <item>Machine Learning Basics</item>
+    </string-array>
+
+    <string-array name="instructor_array">
+        <item>Mr. Prajwal W.</item>
+        <item>Mr. Yogesh P.</item>
+        <item>Miss. Ankita Ma\'am</item>
+    </string-array>
+
+    <string-array name="profession_array">
+        <item>Software Engineer</item>
+        <item>CEO of Archer Infotech</item>
+        <item>Software Developer</item>
+    </string-array>
+
+</resources>

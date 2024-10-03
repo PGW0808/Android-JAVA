@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/courcebg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sample"/>
+
+        <ImageView
+            android:id="@+id/courceimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/java"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_marginStart="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/courcename"
+                android:layout_width="250dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="name of cource"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/duration"
+                android:text="Duration"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ratings"
+                android:layout_width="70dp"
+                android:text="Ratings"
+                android:src="@drawable/rating"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
